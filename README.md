@@ -1,4 +1,4 @@
-# Mini E-Commerce API with .NET 7 & JWT Authentication
+# Mini E-Commerce API with .NET 8 & JWT Authentication
 
 ## 🚀 Project Overview
 
@@ -17,7 +17,7 @@ It serves as a strong foundation for any modern web or mobile application requir
 
 ## 🛠️ Technologies Used
 
-* **Backend:** C# (.NET 7)
+* **Backend:** C# (.NET 8)
 * **Framework:** ASP.NET Core Web API
 * **Database:** SQL Server
 * **ORM:** Entity Framework Core
@@ -31,7 +31,7 @@ Follow these steps to get the project up and running on your local machine.
 
 ### Prerequisites
 
-* [.NET 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0) (or newer)
+* [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0) (or newer)
 * [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) (Recommended)
 * [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (or SQL Server Express)
 * [SQL Server Management Studio (SSMS)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms) (Optional, for database management)
@@ -41,10 +41,9 @@ Follow these steps to get the project up and running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourGitHubUsername/Mini-ECommerce-API.git](https://github.com/YourGitHubUsername/Mini-ECommerce-API.git)
-    cd Mini-ECommerce-API
+    git clone [https://github.com/JrCiko/E-Ticaret-API.git](https://github.com/JrCiko/E-Ticaret-API.git)
+    cd E-Ticaret-API
     ```
-    *(GitHub kullanıcı adını ve repo adını değiştirmeyi unutma)*
 
 2.  **Configure Database Connection String:**
     Open `appsettings.json` and update the `DefaultConnection` string to point to your SQL Server instance.
